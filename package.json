@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/adedayomatt/swagger-generator/issues"
   },
-  "homepage": "https://github.com/adedayomatt/swagger-generator#readme"
+  "homepage": "https://github.com/adedayomatt/swagger-generator#readme",
+  "dependencies": {
+    "utility": "^1.0.0"
+  }
 }
