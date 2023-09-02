@@ -1,4 +1,4 @@
-const $ = require("utility");
+const $ = require("@adedayomatthews/utility");
 const Placeholder = require('./Placeholder');
 
 module.exports =  class Schema {

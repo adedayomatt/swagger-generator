@@ -1,4 +1,4 @@
-const $ = require("utility");
+const $ = require("@adedayomatthews/utility");
 module.exports = class Placeholder {
 
     format = "{}";

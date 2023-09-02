@@ -1,4 +1,4 @@
-const $ = require('utility');
+const $ = require('@adedayomatthews/utility');
 const SwaggerDefinition = require('./Definition');
 const SwaggerSchema = require('../utils/Schema');
 

@@ -1,4 +1,4 @@
-const $ = require('utility');
+const $ = require('@adedayomatthews/utility');
 const Placeholder = require('../utils/Placeholder');
 
 class Definition{

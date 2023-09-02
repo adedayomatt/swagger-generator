@@ -1,5 +1,5 @@
 {
-  "name": "swagger-generator",
+  "name": "@adedayomatthews/swagger-generator",
   "version": "1.0.0",
   "description": "Generate swagger UI setup",
   "main": "index.js",
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/adedayomatt/swagger-generator#readme",
   "dependencies": {
-    "utility": "^1.0.0"
+    "@adedayomatthews/utility": "^1.0.0"
   }
 }
