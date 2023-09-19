@@ -41,7 +41,7 @@ module.exports  = {
                 description: `API calls for ${tenant.name}`,
                 externalDocs: $._set(new SwaggerExternalDocs(), {
                     url: tenant.base_url,
-                    description: "Base Url"
+                    description: "API"
                 })
             })
         });
@@ -74,7 +74,7 @@ module.exports  = {
             description: `API calls for ${singleTenant.name}`,
             externalDocs: $._set(new SwaggerExternalDocs(), {
                 url: singleTenant.base_url,
-                description: "Base Url"
+                description: "API"
             })
         })
 
