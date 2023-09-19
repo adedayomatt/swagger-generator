@@ -1,6 +1,6 @@
 {
   "name": "@adedayomatthews/swagger-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate swagger UI setup",
   "main": "index.js",
   "scripts": {
