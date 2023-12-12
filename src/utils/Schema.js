@@ -24,7 +24,7 @@ module.exports =  class Schema {
                     if(placeholder.match(/\{.*\}/)) {
                         resolvedPlaceholder = this.placeholder.resolveObject(JSON.parse(placeholder));
                         const source = this.placeholder.getAttribute(resolvedPlaceholder, "source")
-                        if(source.match(/registry.*/)) {
+                        if(source && source.match(/registry.*/)) {
                             const registryKey = source.split("registry.")[1];
                             if(this.registry[registryKey] && $._isObject(this.registry[registryKey])) {
                                 resolvedPlaceholder = this.placeholder.resolveObject(this.registry[registryKey])
